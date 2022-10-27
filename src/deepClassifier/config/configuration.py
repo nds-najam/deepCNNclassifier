@@ -1,6 +1,7 @@
 from deepClassifier.constants import *
 from deepClassifier.utils import read_yaml,create_directories
-from deepClassifier.entity import DataIngestionConfig,PrepareBaseModelConfig
+from deepClassifier.entity import DataIngestionConfig, PrepareBaseModelConfig
+from pathlib import Path
 
 class ConfigurationManager:
     def __init__(
