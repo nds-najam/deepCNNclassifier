@@ -42,3 +42,5 @@ class EvaluationConfig:
     training_data: Path
     params_image_size: list
     params_batch_size: int
+    mlflow_uri: str
+    all_params: dict
